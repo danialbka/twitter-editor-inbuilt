@@ -1,18 +1,51 @@
 {
   "manifest_version": 3,
-  "name": "Twitter Editor Inbuilt",
+  "name": "Inbuilt Video Editor for X (Twitter)",
   "version": "1.2.0",
-  "description": "iPhone-style trim & crop, built into the X / Twitter post composer.",
-  "action": { "default_title": "Open Clip Editor", "default_icon": { "16": "icons/16.png", "32": "icons/32.png", "48": "icons/48.png", "128": "icons/128.png" } },
-  "icons": { "16": "icons/16.png", "32": "icons/32.png", "48": "icons/48.png", "128": "icons/128.png" },
-  "background": { "service_worker": "background.js" },
-  "content_scripts": [{
-    "matches": ["https://x.com/*", "https://twitter.com/*"],
-    "js": ["content.js"],
-    "run_at": "document_start"
-  }],
-  "web_accessible_resources": [{
-    "resources": ["editor.js", "editor.css", "vendor/*"],
-    "matches": ["https://x.com/*", "https://twitter.com/*"]
-  }]
+  "description": "iPhone-style trim & crop built into the X / Twitter post composer. Fast, private export — nothing leaves your machine.",
+  "action": {
+    "default_title": "Open video editor",
+    "default_icon": {
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://x.com/*",
+        "https://twitter.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "editor.js",
+        "editor.css",
+        "vendor/*"
+      ],
+      "matches": [
+        "https://x.com/*",
+        "https://twitter.com/*"
+      ]
+    }
+  ],
+  "short_name": "Video Editor for X",
+  "homepage_url": "https://github.com/danialbka/twitter-editor-inbuilt"
 }

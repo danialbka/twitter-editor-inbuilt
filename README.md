@@ -1,4 +1,4 @@
-# Twitter Editor Inbuilt
+# Inbuilt Video Editor for X (Twitter)
 
 An iPhone Photos–style video editor built into the X / Twitter post composer. Trim and crop a clip right where you post it. The export takes seconds and runs on your machine; nothing is uploaded anywhere except to X when you post.
 
@@ -19,7 +19,7 @@ It adds an **Edit video** button to the composer toolbar, next to GIF:
 
 ## Install
 
-The extension isn't in the Chrome Web Store, so load it unpacked:
+A Chrome Web Store listing is under review. Until it's live, load it unpacked:
 
 1. Download this repo (**Code → Download ZIP**) and unzip it, or `git clone` it.
 2. Open `chrome://extensions` and turn on **Developer mode**.
@@ -46,7 +46,7 @@ This works in Chrome and Chromium browsers such as Helium, Arc, Brave and Edge. 
 | `editor.html`, `editor-page.js`, `background.js` | The standalone editor tab opened from the toolbar icon. |
 | `vendor/mediabunny.min.mjs` | [Mediabunny](https://github.com/Vanilagy/mediabunny) (MPL-2.0), which does the demuxing, WebCodecs transcoding and MP4 muxing. |
 
-The extension requests no permissions and has no network code; the only thing that leaves your machine is what you post on X.
+The extension requests no permissions and has no network code; the only thing that leaves your machine is what you post on X. See the [privacy policy](PRIVACY.md).
 
 ## Limitations
 
