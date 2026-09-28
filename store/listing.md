@@ -30,7 +30,12 @@ Open source: https://github.com/danialbka/twitter-editor-inbuilt
 
 Not affiliated with or endorsed by X Corp.
 
-**Graphic assets:** store icon `icon128.png`; screenshots `1-button.png`, `2-trim.png`, `3-crop.png`, `4-export.png` (1280×800); small promo tile `promo-440x280.png`.
+**Graphic assets** (all in `store/`):
+- Store icon: `icon128.png`
+- Screenshots, 1280×800, in order: `1-button.png`, `2-trim.png`, `3-crop.png`, `4-export.png`
+- Small promo tile (required): `promo-440x280.png`
+- Marquee promo tile (optional): `marquee-1400x560.png`
+- Promo video (optional): `promo-video.mp4`, 50s at 1280×800. The store only accepts a YouTube link, so upload this to YouTube first (unlisted is fine) and paste the URL.
 
 **Homepage URL:** https://github.com/danialbka/twitter-editor-inbuilt
 **Support URL:** https://github.com/danialbka/twitter-editor-inbuilt/issues
