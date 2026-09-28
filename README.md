@@ -19,7 +19,7 @@ It adds an **Edit video** button to the composer toolbar, next to GIF:
 
 ## Install
 
-A Chrome Web Store listing is under review. Until it's live, load it unpacked:
+A Chrome Web Store listing is coming. For now, load it unpacked:
 
 1. Download this repo (**Code → Download ZIP**) and unzip it, or `git clone` it.
 2. Open `chrome://extensions` and turn on **Developer mode**.
